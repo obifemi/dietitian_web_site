@@ -1,0 +1,62 @@
+*, ::after, ::before, .nav_items, .nav_items *, a:link, li {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+h1,h5,li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #000;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0rem; /* 0% */
+}
+.name{
+    margin-left: 14.5rem;
+    margin-top: 10.68rem;
+
+
+}
+header{
+    background-image: url(./images/WhatsApp\ Image\ 2021-11-04\ at\ 17.34.36.jpeg);
+    background-size: cover;
+    height: 29.375rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url(./images/WhatsApp\ Image\ 2021-11-04\ at\ 17.34.36.jpeg), lightgray 0px 0px / 100% 272.17% no-repeat;
+    background-size: 100%;
+}
+.nav{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #E0EFFB;
+    height: 3.75rem;
+}
+
+.nav ul{
+    padding: 1.1875rem 5.5625rem 1.25rem 5.5625rem;
+    position: relative;
+    margin: auto;
+
+
+}
+
+.nav ul li{
+    padding-left: 1.69rem;
+   
+}
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0 10%;
+}
