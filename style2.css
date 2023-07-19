@@ -252,3 +252,67 @@ line-height: normal;
 .sub1_1, .sub2_1, .sub3_1{
    margin-bottom: 30px;
 }
+
+.comments{
+    margin-top: 90px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 1.32813rem;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 30.6px;
+width: 432.6px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    text-align: initial;
+    padding-left: 10px;;
+}
+
+.comments-title{
+    color: #000;
+text-align: center;
+font-family: Segoe UI;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 90px;
+}
+
+.comment-img{
+    width: 2.1875rem;
+height: 2.1875rem;
+border-radius: 50%;
+
+}
+
+.card-header{
+    background: rgba(255, 234, 234, 0.30);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 0;
+    align-items: center;
+    text-align: left;
+    gap: 13px;
+
+
+}
+.comment-name{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
