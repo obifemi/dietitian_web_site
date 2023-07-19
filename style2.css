@@ -233,3 +233,22 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
     }
+
+.subText{
+font-family: Segoe UI;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.subsystems{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 257px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;}
+
+.sub1_1, .sub2_1, .sub3_1{
+   margin-bottom: 30px;
+}
