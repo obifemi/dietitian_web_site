@@ -316,3 +316,7 @@ border-radius: 50%;
     font-weight: 400;
     line-height: normal;
 }
+.comment-cards{
+    display: flex;
+    justify-content: center;
+}
