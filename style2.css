@@ -350,3 +350,18 @@ font-weight: 400;
 line-height: normal;
 padding-right: 10px;
 }
+
+@media (max-width: 927px) {
+    .hero{
+        padding: inherit;
+    }
+    
+    .subsystems{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
+        gap: 8px;
+        transition:cubic-bezier(1, 0, 0, 1) 0.8s;
+    }
+}
