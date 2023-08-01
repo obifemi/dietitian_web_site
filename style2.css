@@ -367,6 +367,10 @@ padding-right: 10px;
         transition:cubic-bezier(1, 0, 0, 1) 0.8s;
     }
 
+    #hamburg{
+        display: none;
+    }
+
    
 }
 
@@ -409,13 +413,17 @@ padding-right: 10px;
         flex-direction: row;
     }
 
+    #hamburg{
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 599px){
 
     .name{
         margin-top: 2rem;
-        margin-left: 4.5rem;
+        margin-left: 5rem;
     }
 
     .name h1{
@@ -470,7 +478,7 @@ padding-right: 10px;
 
      .row{
         position: absolute;
-        top: -364px;
+        top: -35px;
      }
 
      .hero {
@@ -500,5 +508,50 @@ padding-right: 10px;
 
     header{
         height: 4.5625rem;
+    }
+
+    .line{
+        width: 29px;
+    }
+
+    .hamburg{
+        margin-left: 10px;
+    }
+
+    .content-title{
+        text-align: center;
+    }
+
+    .button1{
+        position: absolute;
+        right: 149px;
+    }
+
+    .text-title{
+        text-align:center;
+    }
+
+    .comment-cards {
+        
+        flex-direction: column;
+    }
+
+    .card1{
+        width: 318.6px;
+    }
+
+    footer-left{
+        width: 247px;
+    }
+
+    footer-right{
+        width: max-content;
+    }
+
+    footer{
+        justify-content: center;
+        padding: 0.1875rem 0 0 0;
+        flex-direction: column;
+        align-items: center;
     }
 }
